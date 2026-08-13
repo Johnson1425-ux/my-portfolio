@@ -54,7 +54,7 @@ export function Contact() {
                 external
               />
 
-              <div className="mt-auto rounded-card-lg border border-line bg-surface p-6">
+              <div className="rounded-card-lg border border-line bg-surface p-6">
                 <p className="flex items-center gap-2 text-sm font-medium">
                   <span className="relative flex size-2">
                     <span className="absolute inline-flex size-full animate-ping rounded-full bg-emerald-500 opacity-60" />
