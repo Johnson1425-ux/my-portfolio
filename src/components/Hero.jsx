@@ -1,0 +1,7 @@
+import React from "react";
+
+export default function Hero() {
+  return (
+    <div className="hero"><div><div className="available"><span className="dot"></span>Open to remote freelance work</div><h1>Thoughtful code.<br /><em>Practical solutions.</em></h1><p className="lead">I'm Johnson, a web developer building websites and applications that make everyday work simpler.</p><div className="actions"><a className="button" href="#work">Explore my work ↓</a><a className="textlink" href="mailto:johnsonemmanuel1425@gmail.com">Get in touch ↗</a></div></div><div className="hero-art" aria-label="Developer introduction"><div className="terminal"><div className="bar"><i></i><i></i><i></i><span>johnson / developer.js</span></div><div className="code"><div className="comment">// A little about me</div><div><span className="purple">const</span> developer = &#123;</div><div className="indent">name: <span className="yellow">'Johnson Emmanuel'</span>,</div><div className="indent">focus: <span className="yellow">'Web development'</span>,</div><div className="indent">tools: [<span className="yellow">'React', 'Node.js',</span></div><div className="indent"><span className="yellow">'Python', 'MongoDB'</span>],</div><div className="indent">openTo: <span className="yellow">'Your next project'</span></div><div>&#125;;</div></div></div><div className="build-note"><span>FROM IDEA TO INTERFACE</span><span>&lt;/&gt;</span></div></div></div>
+  );
+}
